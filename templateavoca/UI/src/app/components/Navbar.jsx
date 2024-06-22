@@ -7,15 +7,15 @@ import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
   {
-    title: "About",
+    title: "Giới thiệu",
     path: "#about",
   },
   {
-    title: "Projects",
+    title: "Khóa học",
     path: "#projects",
   },
   {
-    title: "Contact",
+    title: "Liên hệ",
     path: "#contact",
   },
 ];
@@ -30,7 +30,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          AVOCAEDU
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
